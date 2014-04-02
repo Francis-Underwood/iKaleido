@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<menu>
+	<options>
+		<iconpath>_mp3/</iconpath>
+		<font>Arial</font>
+		<fontsize>30</fontsize>
+		<fontcolor>0xEEEEEE</fontcolor>
+		<fontbold>no</fontbold>
+		<sub_font>Arial</sub_font>
+		<sub_fontsize>24</sub_fontsize>
+		<sub_fontcolor>0x444444</sub_fontcolor>
+		<sub_fontbold>no</sub_fontbold>
+		<devicefont>yes</devicefont>
+	</options>
+	<fanmenu>
+		<item>
+			<options>
+				<label>Birdy</label>
+				<module_type>textbox</module_type>
+				<module_id>2</module_id>
+				<has_sub_menu>yes</has_sub_menu>
+				<icon>clock.png</icon>
+			</options>
+			<submenu>
+				<item>
+					<label>Photo Gallery</label>
+					<module_type>photogallery</module_type>
+					<module_id>2</module_id>
+					<icon>blue_block.png</icon>
+				</item>
+			</submenu>
+		</item>
+		<item>
+			<options>
+				<label>One Day</label>
+				<module_type>textbox</module_type>
+				<module_id>2</module_id>
+				<has_sub_menu>yes</has_sub_menu>
+				<icon>dv.png</icon>
+			</options>
+			<submenu>
+				<item>
+					<label>Movie Gallery</label>
+					<module_type>moviegallery</module_type>
+					<module_id>2</module_id>
+					<icon>blue_block.png</icon>
+				</item>
+				<item>
+					<label>Miss Underwater</label>
+					<module_type>textbox</module_type>
+					<module_id>2</module_id>
+					<icon>green_block.png</icon>
+				</item>
+			</submenu>
+		</item>
+		<item>
+			<options>
+				<label>camomile plus</label>
+				<module_type>textbox</module_type>
+				<module_id>2</module_id>
+				<has_sub_menu>no</has_sub_menu>
+				<icon>camera-graphic.png</icon>
+			</options>
+			<submenu>
+				<item>
+					<label>First Of May</label>
+					<module_type>textbox</module_type>
+					<module_id>2</module_id>
+					<icon>blue_block.png</icon>
+				</item>
+				<item>
+					<label>Moon River</label>
+					<module_type>textbox</module_type>
+					<module_id>2</module_id>
+					<icon>green_block.png</icon>
+				</item>
+				<item>
+					<label>My Heart Will Go On</label>
+					<module_type>textbox</module_type>
+					<module_id>2</module_id>
+					<icon>orange_block.png</icon>
+				</item>
+			</submenu>
+		</item>
+		<item>
+			<options>
+				<label>Forever Young</label>
+				<module_type>textbox</module_type>
+				<module_id>2</module_id>
+				<has_sub_menu>yes</has_sub_menu>
+				<icon>location.png</icon>
+			</options>
+			<submenu>
+				<item>
+					<label>You Are My Sunshine</label>
+					<module_type>textbox</module_type>
+					<module_id>2</module_id>
+					<icon>blue_block.png</icon>
+				</item>
+				<item>
+					<label>Pure Imagination</label>
+					<module_type>textbox</module_type>
+					<module_id>2</module_id>
+					<icon>green_block.png</icon>
+				</item>
+			</submenu>
+		</item>
+		<item>
+			<options>
+				<label>Love letter</label>
+				<module_type>textbox</module_type>
+				<module_id>2</module_id>
+				<has_sub_menu>yes</has_sub_menu>
+				<icon>envolpe.png</icon>
+			</options>
+			<submenu>
+				<item>
+					<label>Rain Drops</label>
+					<module_type>textbox</module_type>
+					<module_id>2</module_id>
+					<icon>blue_block.png</icon>
+				</item>
+				<item>
+					<label>Promise</label>
+					<module_type>textbox</module_type>
+					<module_id>2</module_id>
+					<icon>green_block.png</icon>
+				</item>
+				<item>
+					<label>In The Spring Garden</label>
+					<module_type>textbox</module_type>
+					<module_id>2</module_id>
+					<icon>red_block.png</icon>
+				</item>
+			</submenu>
+		</item>	
+	</fanmenu>
+</menu>

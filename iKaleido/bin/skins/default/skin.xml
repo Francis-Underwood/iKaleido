@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf_8" standalone="yes"?>
+<skin>
+	<!-- top menu -->
+	<topmenu>
+		<skin>
+			<slice 
+				file="reflection.png"
+				x="0"
+				y="0"
+				alpha="1"
+				rotation="0"
+				blendmode="screen"
+				smooth="yes"
+				/>
+			<slice 
+				file="frame.png"
+				x="0"
+				y="0"
+				alpha="1"
+				rotation="0"
+				blendmode="normal"
+				smooth="yes"
+				/>
+			<slice 
+				file="glass.png"
+				x="0"
+				y="0"
+				alpha="1"
+				rotation="0"
+				blendmode="multiply"
+				smooth="yes"
+				/>
+		</skin>
+		<options>
+			<!-- user icon options -->
+			<cus_icon 
+				zindex="2" 
+				x="0" 
+				y="0" 
+				alpha="1" 
+				rotation="0" 
+				blendmode="normal" 
+				smooth="yes" 
+				/>
+			<label left="10" top="26" zindex="4"/>
+			<dimensions width="101" height="97" />
+			<animation_circle 
+				radius="1200" 
+				degree_augment="6" 
+				tween_speed_oc="60" 
+				tween_speed_to="20" 
+				decay_devider="6" 
+				inertia_velocity="2" 
+				inertia_accelerator="0.4" 
+				/>	
+			<!-- end user icon options -->
+		</options>
+	</topmenu>
+	<!-- sub menu -->
+	<submenu>
+		<skin>
+			<!-- nothing so far -->
+		</skin>
+		<options>
+			<cus_icon 
+				zindex="0" 
+				x="0" 
+				y="0" 
+				alpha="1" 
+				rotation="0" 
+				blendmode="normal" 
+				smooth="yes" 
+				/>
+			<label left="6" top="2" zindex="1" />
+			<dimensions width="32" height="32" />
+			<animation_circle 
+				degree_augment="4"  
+				tween_speed_to="24" 
+				decay_devider="6" 
+				inertia_velocity="1.6" 
+				inertia_accelerator="0.4" 
+				/>
+		</options>
+	</submenu>
+	<!-- background -->
+	<background>
+		<skin>
+			<slice 
+				file="flower.png"
+				x="1720"
+				y="-120"
+				alpha="1"
+				rotation="0"
+				blendmode="normal"
+				smooth="no"
+				/>
+			<slice 
+				file="notebook.png"
+				x="1600"
+				y="860"
+				alpha="1"
+				rotation="0"
+				blendmode="normal"
+				smooth="no"
+				/>
+		</skin>
+		<options>
+			<cus_bg 
+				defaultfile="background.png" 
+				zindex="0" 
+				x="0" 
+				y="0" 
+				alpha="1" 
+				rotation="0" 
+				blendmode="normal" 
+				smooth="no" 
+				/>
+		</options>
+	</background>
+	<!-- end background -->	
+	
+	<!-- text box -->
+	<textbox>
+		<skin>
+			<slice 
+				file="paper.png"
+				x="0"
+				y="0"
+				alpha="1"
+				rotation="0"
+				blendmode="normal"
+				smooth="no"
+				/>
+		</skin>
+		<options>
+			<module width="1080" height="756" />
+			<textmask width="788" height="460" x="130" y="124" />
+			<tween_standby 
+				x="2000" 
+				y="130" 
+				alpha="1"
+				rotation="0" 
+				blur_x="20"
+				blur_y="0"
+				/>
+			<tween_active 
+				x="450" 
+				y="130" 
+				alpha="1"
+				rotation="0" 
+				blur_x="0"
+				blur_y="0"
+				/>
+			<tween_dismissed 
+				x="-1130" 
+				y="130" 
+				alpha="1"
+				rotation="0" 
+				blur_x="20"
+				blur_y="0"
+				/>
+		</options>
+	</textbox>
+	<!-- end text box -->
+	
+	<!-- photo gallery -->
+	<photogallery>
+		<skin>
+			<slice 
+				file="gallery-paper.png"
+				x="0"
+				y="0"
+				alpha="1"
+				rotation="0"
+				blendmode="normal"
+				smooth="no"
+				/>
+		</skin>
+		<options>
+			<module width="1116" height="744" />
+			<albummask width="788" height="460" x="130" y="124" />
+			<tween_standby 
+				x="2000" 
+				y="130" 
+				alpha="1"
+				rotation="0" 
+				blur_x="20"
+				blur_y="0"
+				/>
+			<tween_active 
+				x="450" 
+				y="130" 
+				alpha="1"
+				rotation="0" 
+				blur_x="0"
+				blur_y="0"
+				/>
+			<tween_dismissed 
+				x="-1166" 
+				y="130" 
+				alpha="1"
+				rotation="0" 
+				blur_x="20"
+				blur_y="0"
+				/>
+		</options>
+	</photogallery>
+
+	
+	<!-- album -->
+	<album>
+		<skin>
+			<slice 
+				file="album-background.png"
+				x="0"
+				y="0"
+				alpha="1"
+				rotation="0"
+				blendmode="normal"
+				smooth="no"
+				/>
+		</skin>
+		<options>
+			<cus_cover zindex="1" x="20" y="16" />
+			<label left="10" top="26" />	
+			<module 
+				width="228" 
+				height="252" 
+				margin_left="200" 
+				margin_top="80" 
+				space_ver="30" 
+				space_hor="20" 
+				num_of_row="2" 
+				num_of_col="3" 
+				/>	
+		</options>
+	</album>
+
+	
+	<!-- photo Thumb -->
+	<photothumb>
+		<skin>
+			<!-- not supported due to performance issue -->
+		</skin>
+		<options>
+			<cus_picture x="5" y="5" />
+			<frame width="254" height="200" color="0xFFFFFF" />
+			<label left="5" top="172" bold="yes" color="0x000000" font="_serif" size="16" />
+			<shadow distance="10" color="0x000000" blurX="10" blurY="10" quality="3" />
+			<module 
+				width="254" 
+				height="200"
+				mask_ext_ver="20"
+				mask_ext_hor="20"
+				space_ver="14" 
+				space_hor="20" 
+				num_of_row="4" 
+				num_of_col="4" 
+				/>	
+			<tween_timeline
+				offsetY = "40" 
+				duration = "0.4" 
+				delay = "0.05" 
+			/>	
+		</options>
+	</photothumb>
+
+	<photo>
+		<options>
+			<background
+				width="1920" 
+				height="1080"
+				color="0x222222" 
+				alpha="0.9"
+			/>
+		</options>
+	</photo>
+	
+	<backbutton>
+		<skin>
+			<slice 
+				file="backButton.png"
+				x="0"
+				y="0"
+				alpha="1"
+				rotation="0"
+				blendmode="normal"
+				smooth="no"
+				/>
+		</skin>
+		<options>
+			<label left="5" top="172" bold="yes" color="0x000000" font="_serif" size="16" />
+			<module 
+				width="60" 
+				height="67"
+				/>	
+			<tween_standby 
+				x="506" 
+				y="-80" 
+				alpha="0"
+				rotation="0" 
+				/>
+			<tween_active 
+				x="506" 
+				y="-80" 
+				alpha="1"
+				rotation="0" 
+				/>
+			<tween_dismissed 
+				x="506" 
+				y="-80" 
+				alpha="0"
+				rotation="0" 
+				/>	
+		</options>
+	</backbutton>
+
+	<!-- movie gallery -->
+	<moviegallery>
+		<skin>
+			<!-- nothing so far -->
+		</skin>
+		<options>
+			<module width="1116" height="842" />
+			<tween_standby 
+				x="2000" 
+				y="130" 
+				alpha="1"
+				rotation="0" 
+				blur_x="20"
+				blur_y="0"
+				/>
+			<tween_active 
+				x="450" 
+				y="130" 
+				alpha="1"
+				rotation="0" 
+				blur_x="0"
+				blur_y="0"
+				/>
+			<tween_dismissed 
+				x="-1166" 
+				y="130" 
+				alpha="1"
+				rotation="0" 
+				blur_x="20"
+				blur_y="0"
+				/>
+		</options>
+	</moviegallery>
+	
+	<!-- movie Thumb -->
+	<moviethumb>
+		<skin>
+			<!-- not supported due to performance issue -->
+		</skin>
+		<options>
+			<cus_picture x="5" y="5" />
+			<frame width="254" height="200" color="0xFFFFFF" />
+			<label left="5" top="172" bold="yes" color="0x000000" font="_serif" size="16" />
+			<shadow distance="10" color="0x000000" blurX="10" blurY="10" quality="3" />
+			<module 
+				width="254" 
+				height="200"
+				mask_ext_ver="20"
+				mask_ext_hor="20"
+				space_ver="14" 
+				space_hor="20" 
+				num_of_row="4" 
+				num_of_col="4" 
+				/>	
+			<tween_timeline
+				offsetY = "40" 
+				duration = "0.4" 
+				delay = "0.05" 
+			/>	
+		</options>
+	</moviethumb>	
+	
+	
+	<mediaviewer>
+		<buttonpanel file="buttonPanel_168.png" x="876" y="1008" />
+		<closebutton file="close.png" x="22" y="16" />
+		<infobutton file="info.png" x="106" y="16" />
+		<videoplayer lightcolor="0xEEEEEE" darkcolor="0x111111" accentcolor="0x910000" init_playbutton_scale="3.00" def_init_vol="0.75" />
+	</mediaviewer>
+	<!-- deprecated -->
+	<menu>
+		<!-- top-level menu -->
+		<top>
+				
+			<!-- dimensions -->
+			<dimensions>
+				
+				<animation>
+					<!-- linear fomular-->
+					<x_start_value>25</x_start_value>
+					<x_step_length>1</x_step_length>
+					<x_step_multipler>2</x_step_multipler>
+					<y_start_value>-60</y_start_value>
+					<y_step_length>-60</y_step_length>
+					<y_step_multipler>0</y_step_multipler>
+					<r_start_value>0</r_start_value>
+					<r_step_length>2</r_step_length>
+					<r_step_multipler>0</r_step_multipler>
+					<a_start_value>0</a_start_value>
+					<a_end_value>100</a_end_value>
+					
+					<sub_x_start_value>x</sub_x_start_value>
+					<sub_x_step_length>1</sub_x_step_length>
+					<sub_x_step_multipler>1</sub_x_step_multipler>
+					<sub_y_start_value>x</sub_y_start_value>
+					<sub_y_step_length>-30</sub_y_step_length>
+					<sub_y_step_multipler>0</sub_y_step_multipler>
+					<sub_r_start_value>2</sub_r_start_value>
+					<sub_r_step_length>2</sub_r_step_length>
+					<sub_r_step_multipler>0</sub_r_step_multipler>
+					<sub_r_start_offset>2</sub_r_start_offset>
+					<!-- linear finished -->
+					
+				</animation>
+			</dimensions>
+			<!-- end dimensions -->
+		</top>
+		<!-- end top-level menu -->
+	
+	</menu>
+	<!-- end menu -->
+	
+
+	
+	<!-- logo -->
+	<logo>
+		<slices>
+			<custom>
+				<defaultfile>xxx.png</defaultfile>
+				<zindex>0</zindex>
+				<x>0</x>
+				<y>0</y>
+				<alpha>1</alpha>
+				<rotation>0</rotation>
+				<blendmode>normal</blendmode>
+				<smooth>no</smooth>
+			</custom>
+		</slices>
+	</logo>
+	<!-- end logo -->
+
+	
+
+</skin>

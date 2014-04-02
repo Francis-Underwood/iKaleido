@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<videogallery>
+	<options>
+		<coverpath>_mp3/</coverpath>
+		<photopath>_mp3/</photopath>
+		<font>Arial</font>
+		<fontsize>30</fontsize>
+		<fontcolor>0xEEEEEE</fontcolor>
+		<fontbold>no</fontbold>
+		<sub_font>Arial</sub_font>
+		<sub_fontsize>24</sub_fontsize>
+		<sub_fontcolor>0x444444</sub_fontcolor>
+		<sub_fontbold>no</sub_fontbold>
+		<devicefont>yes</devicefont>
+	</options>
+	<movies>
+		<item>
+			<title>Birdy</title>
+			<desc>textbox</desc>
+			<thumb>285533_preview.jpg</thumb>
+			<videourl>285533_preview.flv</videourl>
+		</item>	
+		<item>
+			<title>Birdy</title>
+			<desc>textbox</desc>
+			<thumb>285533_preview.jpg</thumb>
+			<videourl>Poker_Face.flv</videourl>
+		</item>	
+	</movies>
+</videogallery>

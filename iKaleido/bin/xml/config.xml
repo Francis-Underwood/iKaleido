@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<config>
+	<preloader>
+		<!-- Color Wheel Animation Parameters -->
+		<colorwheel>
+			<!-- tweener 1 params -->
+			<tw1_duration>5</tw1_duration>
+			<tw1_scaleRatio>1.4</tw1_scaleRatio>
+			<tw1_hue>180</tw1_hue>
+			<!-- tweener 2 params -->
+			<tw2_duration>12</tw2_duration>
+			<tw2_position>6</tw2_position>
+			<tw2_scaleRatio>0.75</tw2_scaleRatio>
+			<tw2_brightness>-1</tw2_brightness>
+			<tw2_saturation>-1</tw2_saturation>
+			<!-- tweener 3 params -->
+			<tw3_duration>21</tw3_duration>
+			<tw3_position>6</tw3_position>
+			<tw3_contrast>2</tw3_contrast>
+			<!-- tweener 4 params -->
+			<tw4_duration>10</tw4_duration>
+			<tw4_position>16</tw4_position>
+			<tw4_alpha>0</tw4_alpha>
+		</colorwheel>
+		<!-- End Color Wheel -->
+	</preloader>
+	<options>
+		<skin>default</skin>
+		<textmod_url>http://192.168.0.123/lab/richTxtEdtOtpt/daicheong.html</textmod_url>
+		<apply_custom_background>no</apply_custom_background>
+		<apply_submenu_icon>yes</apply_submenu_icon>
+	</options>
+	<dev_options>
+		<device_dependent sensitivity="4"/>
+	</dev_options>
+</config>
